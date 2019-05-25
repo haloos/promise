@@ -12,4 +12,4 @@ promise
   throw Error
   console.log(result2); 
 }) 
-.catch(console.log)
+.catch(() => console.log('error!')) // .catch catchs error between the .then
