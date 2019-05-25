@@ -7,9 +7,9 @@ const promise = new Promise((resolve, reject) => {
 })  
 
 promise 
-.then(result => result + '!') 
-.then(result2 => { 
-  throw Error
-  console.log(result2); 
-}) 
-.catch(() => console.log('error!')) // .catch catchs error between the .then
+.then(result => result ='!') 
+.then(result2 => result2 ='?') 
+.catch(() => console.log('errror')) 
+.then(result3 => {
+ console.log(result3 + '!'); 
+})
