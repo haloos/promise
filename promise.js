@@ -6,6 +6,10 @@ const promise = new Promise((resolve, reject) => {
   }
 })  
 
+const promise2 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'HIIII')
+})
+
 promise 
 .then(result => result ='!') 
 .then(result2 => result2 ='?') 
