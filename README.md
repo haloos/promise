@@ -1,3 +1,3 @@
 # promise 
 
-Some example of using promise in JS
+<h3>Some example of using promise in JS</h3>
